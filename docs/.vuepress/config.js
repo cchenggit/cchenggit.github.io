@@ -1,4 +1,5 @@
 module.exports = {
+  base:"/cchenggit/",
   title: "cchenggit 的小站",
   description: '用文字记录思想.',
   dest: 'public',
