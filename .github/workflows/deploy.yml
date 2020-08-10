@@ -24,8 +24,6 @@ jobs:
         persist-credentials: false
 
    # 生成静态文件
-    - name: Yarn CLI
-      uses: CultureHQ/actions-yarn@v1.0.1
     - name: Build
       run: yarn install && yarn build
 
@@ -35,5 +33,5 @@ jobs:
       with:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: docs/.vuepress/dist
+        FOLDER: dist
 
