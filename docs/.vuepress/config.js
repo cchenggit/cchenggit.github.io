@@ -1,7 +1,6 @@
 module.exports = {
-  base:"/blog/",
   title: "cchenggit 的小站",
-  description: 'Do not go gental into that good night.',
+  description: 'Do not go gentle into that good night.',
   dest: 'dist',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
